@@ -1,0 +1,52 @@
+#include <stdio.h>
+void main()
+{
+  int choice,select;
+  printf("Welcome to the Codesoft bot\n");
+  printf("Choose 1)INTERNSHIP\n       2)JOB\n");
+  printf("Select the numeric value\n");
+  scanf("%d",&choice);
+  if(choice==1)
+  {
+    printf("Internship\n");
+    printf("Select the numeric value from below\n");
+    printf(" 1) ONE MONTH INTERNSHIP\n 2) SIX MONTH INTERNSHIP\n 3) PAID INTERNSHIP\n ");
+    scanf("%d",&select);
+    if (select== 1)
+    {
+      printf("Apply for internships at www.codsoft.in\n");
+      printf("Select the domain in which you are intereset for in that website\n");
+    }
+    else if(select==2)
+    {
+     printf("You need to perform well in one month internship so that you will be capable to do the 6 months internship else you are not elgible to do so!!\n"); 
+    }
+    else if(select==3)
+    {
+     printf("After completion of both 1 month and 6 months internship you will be elgible to do paid internships or else check you connections in linked in if you are lucky enough you may find one to apply\n");
+    }
+    else
+    {
+      printf("WRONG CHOICE!!\n");
+      printf("Please enter the correct choice\n");
+    }
+    printf("All the best!!\n");
+    printf("Thank you!!\n");
+  }
+  else if(choice==2)
+  {
+   printf("Job\n");
+   printf("which type of job you are looking for?\n");
+   printf("Make sure you have prior knowledge about the company for which you are going to interview\n");
+   printf("Be confident while responding to the questions\n");
+    printf("Make sure you are well dressed\n");
+   printf("To apply for the interview for any kind of job choosen\n1)RESUME \n2)CV \n3)ACADEMIC PERFORMANCE\n are mandatory \n");
+    printf("Hope you do well in your interview\n");
+  }
+  else
+  {
+    printf("Wrong choice!!\n");
+    printf("Please enter the correct choice\n");
+  }
+  printf("If you still have any more queries please mail us to codesoft@gmail.com");
+}
